@@ -232,3 +232,14 @@ blockquote h5{
 #mdh6{
     font-size: 10px;
 }
+.logo{
+    width: 3em;
+}
+.best-practice{
+    font-size:22px;
+    font-weight:900;
+    font-family: 'Anton', monospace;
+    color:#F3AB3D;
+    background-color: #222222;
+    padding: 3em 3em 3em 20em;
+}
