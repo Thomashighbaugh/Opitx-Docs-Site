@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opitx Installation Options</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Installation options for Opitx MD Editor">
+    <meta name="author" content="Thomas Leon Highbaugh">
+    <title>Opitx - Minimalist Markdown Editor</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <!--Custom CSS-->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Font here -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Play&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+<div class="sidebar-wrapper">
+    <div class="sideArrow"><a id="menu-toggle" href="#" class="btn btn-default"><i class="fa fa-chevron-right"></i></a></div>
+    <div class="sidebar-brand"> <a href="#"><img src="../images/logo.svg" width="487" height="470" alt=""></a> </div>
+
+    <ul class="sidebar-nav">
+        <li><span>Contents</span></li>
+        <li><a href="../index.html">1. Introduction</a></li>
+        <li><a href="two.html">2. Installation</a></li>
+        <li>
+            <a href="three.html" >3. MarkDown Stylesheet</a>
+        </li>
+        <li><a href="four.html" class="active">4. Features</a></li>
+        <li><a href="five.html">5. Back Up Options</a></li>
+        <li><a href="six.html">6. Source Code</a></li>
+        <li><a href="seven.html">7. More Information</a></li>
+    </ul>
+</div>
+    <!-- Page content -->
+    <div class="page-content-wrapper">
+        <div class="content-header">
+            <h1>Opitx - Installation</h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+            <div class="row">
+                <p class="description">Several installation options are provided on the GitHub repository for Opitx. The option you choose will depend upon your distribution and preferences. Each is documented below.</p>
+                <h3><strong>Option 1: AppImage</strong></h3>
+                <h4><strong>Distro: All</strong></h4>
+                <p class="description">Definitely the easiest option to set up across distros, this option enables you to run a single file that comes packaged with all of the dependencies and files necessary to run Opitx.</p>
+                <h5> <strong>To Run Opitx as an AppImage</strong></h5>
+                <ol>
+                    <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                    <li>Click Releases in the top right</li>
+                    <li>Select and Download the AppImage</li>
+                    <li>Make it executable with <code>chmod a+x Opitx*.AppImage</code> </li>
+                    <li>Run it with <code>./Optix*.AppImage</code></li>
+                </ol>
+                <h5><strong>Or For More Permanent Integration</strong></h5>
+                <ol>
+                    <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                    <li>Click Releases in the top right</li>
+                    <li>Select and Download the AppImage</li>
+                    <li>Follow <a href="https://github.com/TheAssassin/AppImageLauncher/releases">this link</a> for AppImage Launcher </li>
+                    <li>Download and install the version for your OS</li>
+                    <li>Then click the Opitx AppImage and when the dialog pops up hit &quot;Integrate and Run&quot; </li>
+                    <li>Then Opitx will be available to your system's menu too</li>
+                </ol>
+                <h3>Option 2: Debian Package</h3>
+                <h4>Distro: Debian, Ubuntu, Linux Mint, Debian/Ubuntu-Based</h4>
+                <p class="description">Enabling more permanent integration in Debian-based desktops, this method is the method that the author uses Opitx on his systems.</p>
+                <h5><strong>Install With Terminal</strong></h5>
+                <ol>
+                    <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                    <li>Click Releases in the top right</li>
+                    <li>Select and Download the .deb package</li>
+                    <li>Navigate to the directory it was downloaded to</li>
+                    <li>Run <code>sudo apt install /path/to/Opitx*.deb</code></li>
+                </ol>
+                <h5><strong>Install With GDebi GUI</strong></h5>
+                <ol>
+                    <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                    <li>Click Releases in the top right</li>
+                    <li>Select and Download the .deb package</li>
+                    <li>Insure that you GDebi installed with <code>sudo apt-get install gdebi</code></li>
+                    <li>Right Click on the Package and Select &quot;Open With&quot;</li>
+                    <li>Select GDebi and then select &quot;Install&quot;</li>
+                    <li>Finally enter your password</li>
+                </ol>
+                <h5><strong>Install With Gnome Software (Gnome/Budgie)</strong></h5>
+                <ol>
+                <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                <li>Click Releases in the top right</li>
+                <li>Select and Download the .deb package</li>
+                    <li>Double Click the Downloaded Package</li>
+                    <li>Hit &quot;Install&quot;</li>
+                    <li>Enter your password</li>
+                </ol>
+                <h3>Option 3: RPM Package</h3>
+                <h4>Distro: Redhat, Fedora, OpenSuse</h4>
+                <p class="description">While the author doesn't use these systems, he has made a package available for them to enable their users to have the more full integration he prefers with deb packages. These instructions will be more spartan for obvious reasons.</p>
+                <h5><strong>Install With Terminal</strong></h5>
+                <ol>
+                <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                <li>Click Releases in the top right</li>
+                <li>Select and Download the .rpm package</li>
+                    <li>Install with <code>rpm -U optix*.rpm</code></li>
+                </ol>
+                <h3>Option 4: Development Server</h3>
+                <h4>Distro: All</h4>
+                <p class="description">This method could even <strong>in theory</strong> work with non-Linux OSes. It doesn't provide an integrated experience but allows you to edit Opitx to fit your needs (it is open source after all)</p>
+                <h5><strong>Development Server with Yarn</strong></h5>
+                <ol>
+                    <li>Follow <a href="https://github.com/Thomashighbaugh/Opitx">this link</a> to the GitHub Repo </li>
+                    <li>Click Releases in the top right</li>
+                    <li>Download the ZIP Archive or Tarball</li>
+                    <li>Extract the directory</li>
+                    <li>Install the dependencies with <code>yarn install</code></li>
+                    <li>Run the server with <code>yarn run electron-dev</code></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

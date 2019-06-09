@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Opitx Installation Options</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Installation options for Opitx MD Editor"
+    />
+    <meta name="author" content="Thomas Leon Highbaugh" />
+    <title>Opitx - Minimalist Markdown Editor</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <!--Custom CSS-->
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Google Font here -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Play&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar-wrapper">
+        <div class="sideArrow">
+          <a id="menu-toggle" href="#" class="btn btn-default"
+            ><i class="fa fa-chevron-right"></i
+          ></a>
+        </div>
+        <div class="sidebar-brand">
+          <a href="#"
+            ><img src="../images/logo.svg" width="80" height="80" alt=""
+          /></a>
+        </div>
+
+        <ul class="sidebar-nav">
+          <li><span>Contents</span></li>
+          <li><a href="../index.html">1. Introduction</a></li>
+          <li><a href="two.html">2. Installation</a></li>
+          <li>
+            <a href="three.html" >3. MarkDown Stylesheet</a>
+          </li>
+          <li><a href="four.html" class="active">4. Features</a></li>
+          <li><a href="five.html">5. Back Up Options</a></li>
+          <li><a href="six.html">6. Source Code</a></li>
+          <li><a href="seven.html">7. More Information</a></li>
+        </ul>
+      </div>
+      <!-- Page content -->
+      <div class="page-content-wrapper">
+        <div class="content-header">
+          <h1>Opitx - Markdown Stylesheet</h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <p class="description">
+              The following information is the raw text provided in the start
+              page of the application. Due to this being site being in HTML,
+              expect some style differences and see the repository for a more
+              accurate rendering.
+            </p>
+            <blockquote>
+                <h1>
+              Syntax Guide This is a brief introduction to Markdown. For a more
+                    complete description, check out GitHub's Mastering MarkDown Guide. </h1>
+                <hr />
+              <h5><strong>Italics</strong></h5>
+              <code>
+                Markdown: This is a text with _Italics_ which can be rendered
+                *in different ways*
+              </code>
+              <p class="description">
+                Result: <br /> This is a text with <i>Italics</i> which can be rendered
+                <i>in different ways.</i>
+              </p>
+                <hr />
+              <h5><strong>Bold</strong></h5>
+              <code
+                >Markdown: **Bold** is almost the same, it just uses __two
+                asterisks__ or __underscores__
+              </code>
+              <p class="description">
+                Result: <br /> Markdown: <b>Bold</b> is almost the same, it just uses
+                two <b>asterisks</b> or <b>underscores.</b>
+              </p>
+                <hr />
+              <h5><strong>Headers</strong></h5>
+              <code
+                >Markdown: <br />
+                  # Markdown<br />
+                  ## Uses <br />
+                  ### Similar <br />
+                  #### Headers <br />
+                  ##### To <br />
+                ###### HTML <br />
+              </code>
+              <p class="description">Result:</p>
+              <h1 id="mdh1">Markdown</h1>
+              <h2 id="mdh2">Uses</h2>
+              <h3 id="mdh3">Similar</h3>
+              <h4 id="mdh4">Headers</h4>
+              <h5 id="mdh5">To</h5>
+              <h6 id="mdh6">HTML</h6>
+                <hr />
+              <h5><strong>Unordered Lists</strong></h5>
+              <code>Markdown:</code> <br />
+              <code>- List Item</code> <br />
+              <code>- List Item</code> <br />
+              <code class="sub"> - Sub Item</code> <br />
+              <code class="sub"> - Sub Item</code> <br />
+              <p class="description">Result:</p>
+              <ul>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>
+                  <ul>
+                    <li class="sub">Sub Item</li>
+
+                    <li class="sub">Sub Item</li>
+                  </ul>
+                </li>
+              </ul>
+              <hr />
+              <h5><strong>Ordered Lists</strong></h5>
+              <code>Markdown:</code><br />
+              <code>1. Ordered</code><br />
+              <code>1. Lists</code><br />
+              <code class="sub"> 1. Are</code><br />
+              <code class="sub"> 1. Easy </code><br />
+              <code class="sub"> 1. Too</code><br />
+              <p class="description">Result:</p>
+              <ol>
+                <li>Ordered</li>
+                <li>Lists</li>
+                <li>
+                  <ol>
+                    <li>Are</li>
+                    <li>Easy</li>
+                    <li>Too</li>
+                  </ol>
+                </li>
+              </ol>
+              <h5><strong>Links</strong></h5>
+              <code>Markdown: [Big Brother](https://google.com) </code>
+              <p class="description">
+                Result: <a href="https://google.com">Big Brother</a>
+              </p>
+              <h5><strong>Blockquotes</strong></h5>
+              <code>Markdown: </code> <br />
+              <code
+                >&gt; I was so tired of loosing my work, I actually made my own
+                editor.</code
+              ><br />
+              <code
+                >&gt; Sure it took a while, but less time than redoing even more
+                work.
+              </code>
+              <blockquote>
+                I was so tired of loosing my work, I actually made my own
+                  editor. </blockquote>
+
+                  <blockquote>Sure it took a while, but less time than redoing even
+                more work.
+              </blockquote>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
