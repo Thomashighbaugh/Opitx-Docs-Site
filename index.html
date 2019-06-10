@@ -1,53 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>Opitx - Minimalist Markdown Editor</title>
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<!--Custom CSS-->
-<link href="css/style.css" rel="stylesheet">
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<!-- Google Font here -->
-  <link href="https://fonts.googleapis.com/css?family=Anton|Play&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Opitx - Minimalist Markdown Editor</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!--Custom CSS-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Google Font here -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Play&display=swap"
+      rel="stylesheet"
+    />
   </head>
-<body>
-<div class="wrapper">
-  <!-- Sidebar -->
-  <div class="sidebar-wrapper">
-    <div class="sideArrow"><a class="menu-toggle" href="#" class="btn btn-default"><i class="fa fa-chevron-right"></i></a></div>
-    <div class="sidebar-brand"> <a href="#"><img src="images/logo.svg" width="80" height="80" alt=""></a> </div>
-    <ul class="sidebar-nav">
-      <li><span>Contents</span></li>
-      <li><a href="index.html" class="active">1. Introduction</a></li>
-      <li><a href="pages/two.html">2. Installation</a></li>
-      <li><a href="pages/three.html">3. MarkDown Examples and Stylesheet</a></li>
-      <li><a href="pages/four.html">4. Features</a></li>
-      <li><a href="pages/five.html">5. Back Up</a></li>
-      <li><a href="pages/six.html">6. Source Code</a></li>
-      <li><a href="pages/seven.html">7. More Information</a></li>
-    </ul>
-  </div>
-  <!-- Page content -->
-  <div class="page-content-wrapper">
-    <div class="content-header">
-      <h1>Opitx - Documentation</h1>
-    </div>
-    <!-- Keep all page content within the page-content inset div! -->
-    <div class="page-content inset">
-      <div class="row">
-        <h2 id="one">1. Introduction</h2>
-        <p>Opitx is a Markdown Editor, built with React and Electron, that puts the user in control of their files. </p>
-        <p><strong>Linux has many Markdown editor options, but they all have the same problem, saving.</strong></p>
-        <p>After trying nearly every option available, there was still nothing out that enabled me to save my work in local directories without saving it in some strange string of characters meant for the backend database and not me, the user.</p>
-        <p>Only one of at least a dozen that had an integrated sync feature even worked reliably (Turtl). So instead of making due with bad options and loosing even more of my work, I decided to write my own Markdown Editor that has the features that I need integrated into it.</p>
-        <p><img src="images/Opitx.png"></p>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sideArrow">
+          <a href="index.html" class="btn btn-default"
+            ><i class="fa fa-chevron-right"></i
+          ></a>
+        </div>
+        <div class="sidebar-brand">
+          <a href="#"
+            ><img src="images/logo.svg" width="487" height="470" alt=""
+          /></a>
+        </div>
+        <ul class="sidebar-nav">
+          <li><span>Contents</span></li>
+          <li><a href="index.html" class="active">1. Introduction</a></li>
+          <li><a href="pages/two.html">2. Installation</a></li>
+          <li>
+            <a href="pages/three.html">3. MarkDown Stylesheet</a>
+          </li>
+          <li><a href="pages/four.html">4. Features</a></li>
+          <li><a href="pages/five.html">5. Back Up</a></li>
+          <li><a href="pages/six.html">6. Source Code</a></li>
+          <li><a href="pages/seven.html">7. More Information</a></li>
+        </ul>
+      </div>
+      <!-- Page content -->
+
+      <div class="page-content-wrapper">
+        <div class="content-header">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Opitx - Documentation</h1>
+                  <h2 class="display-4">4. Features</h2>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="col-lg-6">
+              <p class="bigger">
+                Opitx is a Markdown Editor, built with React and Electron, that
+                puts the user in control of their files.
+              </p>
+              <p>
+                Linux has many Markdown editor options, but they all have the
+                same problem,<strong>saving</strong>.
+                <br />
+                After trying nearly every option available, there was still
+                nothing out that enabled me to save my work in local directories
+                without saving it in some strange string of characters meant for
+                the backend database and not me, the user.
+              </p>
+              <p>
+                Only one of at least a dozen that had an integrated sync feature
+                even worked reliably (Turtl). So instead of making due with bad
+                options and loosing even more of my work, I decided to write my
+                own Markdown Editor that has the features that I need integrated
+                into it.
+              </p>
+              <hr />
+              <h5>
+                This application was designed to satisfy the author's needs that
+                were as follows:
+              </h5>
+              <ul class="requirements">
+                Opitx Requirements
+                <li>Markdown enabled note taking</li>
+                <li>
+                  Allowing the user to save the notes according to their needs
+                </li>
+                <li>Written with the UX in mind</li>
+                <li>Have Syntax highlighting for code-related notes</li>
+                <li>Free and Open Sourced</li>
+                <li>Available Across Linux Distros</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <img src="images/logo.jpg" alt="logo" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>
