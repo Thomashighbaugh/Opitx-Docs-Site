@@ -135,9 +135,8 @@ body {
   display: inline-block;
   font-weight: bold;
 }
-.row{
+.row {
   margin: 0 0 0 3em;
-
 }
 h1 {
   font-family: "Anton", monospace;
@@ -192,11 +191,10 @@ ol {
   margin-top: 10px !important;
 }
 .description p {
-  font-size:2em;
-  background-color:#ffffff;
+  font-size: 2em;
+  background-color: #ffffff;
   margin-bottom: 2em;
-  margin-top:2em;
-
+  margin-top: 2em;
 }
 .sub {
   padding-left: 2em;
@@ -243,25 +241,32 @@ blockquote h5 {
   background-color: #222222;
   padding: 3em 3em 3em 20em;
 }
-.requirements{
-  color:#f3ab3d;
+.requirements {
+  color: #f3ab3d;
   background-color: #222222;
-  padding:3em;
-  font-size:22px;
-  font-weight:300;
-  font-family:"Anton", monospace;
-  margin-left:1em;
+  padding: 3em;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Anton", monospace;
+  margin-left: 1em;
 }
-.jumbotron{
-  color:#f3ab3d;
+.jumbotron {
+  color: #f3ab3d;
   background-color: #222222;
-  font-weight:500;
-  font-family:"Anton",monospace;
-
+  font-weight: 500;
+  font-family: "Anton", monospace;
 }
 .jumbotron a {
-  color:#ffffff;
+  color: #ffffff;
 }
-.bigger{
-  font-size:2em;
+.bigger {
+  font-size: 2em;
+}
+.info {
+  color: #f3ab3d;
+  background-color: #222222;
+  padding:2em;
+}
+.info a{
+  color:#f3ab3d;
 }
